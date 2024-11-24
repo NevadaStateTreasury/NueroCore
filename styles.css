@@ -109,3 +109,23 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #00ffff;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.5em;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.back-to-top:hover {
+    background-color: white;
+    transform: scale(1.1);
+}
